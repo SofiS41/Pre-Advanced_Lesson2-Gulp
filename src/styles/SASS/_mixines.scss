@@ -1,0 +1,13 @@
+@mixin buttons ($w, $h, $bcc, $c, $br) {
+    width: $w;
+    height: $h;
+    background: $bcc;
+    color: $c;
+    border-radius: $br;
+}
+
+@mixin text-prop($fs, $lh, $fc){
+    font-size: $fs;
+    line-height: $lh;
+    color: $fc;
+}
